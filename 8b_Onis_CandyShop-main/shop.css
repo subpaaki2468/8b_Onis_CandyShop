@@ -1,0 +1,89 @@
+.content {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+  display: flex;
+}
+.grid-container {
+  display: inline-grid;
+  width: 100%;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 50px;
+}
+.grid-items {
+  background-color: rgb(53, 53, 53);
+  border-radius: 10px;
+  width: 90%;
+  height: 300px;
+}
+.uss {
+  width: 60%;
+}
+.ssu {
+  width: 60%;
+}
+.image {
+  height: 40%;
+  background-image: url("images/M&Ms.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+.title {
+  font-size: xx-large;
+}
+.price {
+  color: gray;
+}
+.amogn {
+  border: 1px solid white;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.ae {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 10px;
+}
+.calc {
+  border: 0;
+  background-color: #00bfa6;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+}
+.button {
+  margin-top: 50px;
+  border: 0;
+  background-color: #00bfa6;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 33% 33% 33%;
+  }
+  .grid-items {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+  .grid-items {
+    height: 150px;
+  }
+  .calc {
+    padding: 5px;
+  }
+}

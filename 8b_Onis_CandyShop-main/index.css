@@ -1,0 +1,62 @@
+.content {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+}
+hr {
+  margin: 10px;
+  border: #6f727c dotted 1px;
+}
+.intro {
+  width: 50%;
+}
+.introwithpic {
+  display: flex;
+}
+.intropic {
+  width: 50%;
+}
+.getstartedbox {
+  background-color: #00bfa6;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: large;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.getstarted {
+  font-size: large;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .intro {
+    font-size: medium;
+  }
+  .getstarted {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .intro {
+    font-size: x-small;
+  }
+  .getstarted {
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .intro {
+    font-size: xx-small;
+  }
+}
